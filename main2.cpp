@@ -83,7 +83,7 @@ GradientApp::GradientApp(HINSTANCE inst) : m_instance(inst) {
     wcStrip.hCursor = LoadCursor(NULL, IDC_ARROW);
     wcStrip.hbrBackground = NULL; 
     wcStrip.lpszClassName = L"LabGradientStripClass";
-    RegisterClassExW(&wcStrip);
+
 
     // Tworzenie Okna Głównego (rozmiar 600x400)
     m_main_hwnd = CreateWindowExW(0, L"LabGradientMainClass", L"Edytor Gradientów (Core)",
